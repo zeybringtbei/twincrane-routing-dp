@@ -1,11 +1,5 @@
 requests = []
 
-# ------------------------------------------------------------------
-# ZUSTAND
-# Speichert die Bay der Kräne.
-# Der Kran mit Priorität (priocrane) steht in der Bay seines letzten erfüllten Requests
-# Der Kran ohne Priorität (1-priocrane) steht direkt links oder rechts neben dem anderen Kran
-# --------------------------------------------------------------------
 class State:
     """
         DP-State. 
